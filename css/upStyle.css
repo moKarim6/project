@@ -80,51 +80,10 @@ header {
 }
 
 
-
-
-.series h3{
+h3{
+    text-align: center;
+    margin-top: 50px;
     color: white;
-    float: left;
-    margin-top: 30px;
-    font-size: x-large;
-}
-
-
-
-.series img{
-    width: 100%;
-    margin-top: 15px;
-    box-shadow: -4px 4px 5px 0 #000;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.series img:hover{
-    transform: translateY(-10px);
-}
-
-.films h3{
-    color: white;
-    float: left;
-    margin-top: 20px;
-}
-
-.films img{
-    width: 70%;
-    margin-top: 15px;
-    box-shadow: -4px 4px 5px 0 #000;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.films img hover{
-    transform: translateY(-10px);
-}
-
-.series h2{
-    font-size: small;
-    margin-top: 20px;
-        
 }
 
 footer {
@@ -153,4 +112,3 @@ footer ul li a{
     color: white;
     font-weight: bold;
 }
-

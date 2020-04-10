@@ -81,51 +81,41 @@ header {
 
 
 
-
-.series h3{
-    color: white;
-    float: left;
-    margin-top: 30px;
-    font-size: x-large;
-}
-
-
-
-.series img{
-    width: 100%;
-    margin-top: 15px;
-    box-shadow: -4px 4px 5px 0 #000;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.series img:hover{
-    transform: translateY(-10px);
-}
-
-.films h3{
-    color: white;
-    float: left;
-    margin-top: 20px;
-}
-
-.films img{
+movie details{
+   
     width: 70%;
-    margin-top: 15px;
-    box-shadow: -4px 4px 5px 0 #000;
+    height: 730px;
+    border: 2px solid #cccccc;
+    margin-left: 15%;
+    margin-top: 30px%;
+    box-shadow: 0 5px 38px darkred;
+    background: linear-gradient(0deg, rgba(0,0,0,09), 50%, transparent);
+    border-radius: 20px;
+    margin: 3% 0;
+    
+}
+
+.left-box{
+    margin-top: 30px;
+    color: white;
+    margin 15px 0;
+    padding: 20px;
+}
+
+
+.casting img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
     cursor: pointer;
-    transition: 1s;
 }
 
-.films img hover{
-    transform: translateY(-10px);
+.movie-img{
+    margin top: 30px;
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
 }
 
-.series h2{
-    font-size: small;
-    margin-top: 20px;
-        
-}
 
 footer {
     
